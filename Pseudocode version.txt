@@ -1,0 +1,30 @@
+Read n
+
+If n != 0 Then
+    Create list v of size n
+
+    For i = 0 to n - 1 Do
+        Read v[i]
+    End For
+
+    min = v[0]
+    max = v[0]
+    avg = v[0]
+
+    For i = 1 to n - 1 Do
+        avg = avg + v[i]
+        If v[i] > max Then
+            max = v[i]
+        End If
+        If v[i] < min Then
+            min = v[i]
+        End If
+    End For
+
+    avg = avg / n
+    Print "The minimum is " + min
+    Print "The maximum is " + max
+    Print "The average is " + avg
+Else
+    Print "The list is empty"
+End If
