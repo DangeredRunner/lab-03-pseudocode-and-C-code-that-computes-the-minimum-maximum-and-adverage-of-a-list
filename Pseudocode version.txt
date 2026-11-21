@@ -26,5 +26,5 @@ If n != 0 Then
     Print "The maximum is " + max
     Print "The average is " + avg
 Else
-    Print "The list is empty -_-"
+    Print "The list is empty"
 End If
