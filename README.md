@@ -1,0 +1,1 @@
+# Pseudocode-and-C-code-that-computes-the-minimum-maximum-and-adverage-of-a-list
