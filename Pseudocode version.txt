@@ -3,15 +3,15 @@ Read n
 If n != 0 Then
     Create list v of size n
 
-    For i = 0 to n - 1 Do
+    For i = 1 to n Do
         Read v[i]
     End For
 
-    min = v[0]
-    max = v[0]
-    avg = v[0]
+    min = v[1]
+    max = v[1]
+    avg = v[1]
 
-    For i = 1 to n - 1 Do
+    For i = 2 to n Do
         avg = avg + v[i]
         If v[i] > max Then
             max = v[i]
@@ -26,5 +26,5 @@ If n != 0 Then
     Print "The maximum is " + max
     Print "The average is " + avg
 Else
-    Print "The list is empty"
+    Print "The list is empty -_-"
 End If
